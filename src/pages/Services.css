@@ -1,0 +1,40 @@
+.services-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: white;
+  }
+  
+  .services-container h1 {
+    font-size: 2.5rem;
+    color: #61dafb;
+    margin-bottom: 1.5rem;
+  }
+  
+  .services-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    color: #333
+  }
+  
+  .services-container ul li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #333
+  }
+  
+  .service-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    color: #333
+  }
+  
+  .service-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  

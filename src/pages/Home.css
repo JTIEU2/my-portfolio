@@ -1,0 +1,66 @@
+/* Home Page Container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns the content closer to the top */
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-top: 100px; /* Adds space at the top */
+  }
+  
+  /* Welcome Text Styling */
+  .welcome-text {
+    font-size: 2rem;
+    color: #5a67d8; /* Light blue */
+    margin-bottom: 0.5rem; /* Reduce margin */
+  }
+  
+  /* Main Name Heading */
+  .name-heading {
+    font-size: 3.5rem; /* Slightly smaller than before */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Short description */
+  .description {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Button Styling */
+  .about-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #3182ce; /* Blue Button */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .about-btn:hover {
+    background-color: #2b6cb0; /* Darker Blue */
+  }
+  
+  /* For smaller screens */
+  @media (max-width: 768px) {
+    .name-heading {
+      font-size: 2.5rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  
+    .about-btn {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
